@@ -801,6 +801,7 @@ link:focus,
     font-size: 20px;
   }
 }
+}
 
 @media (max-width: 991px) {
   .feature-blocks {
@@ -810,6 +811,8 @@ link:focus,
   .feature-blocks h3 {
     font-size: 25px;
   }
+  
+}
 }
 
 /* /banner feature */
@@ -955,7 +958,9 @@ link:focus,
     padding-left: 15px;
   }
 }
-
+.list-unstyled li{
+  font-size: 15px;
+}
 .input-wrapper {
   position: relative;
 }
@@ -1012,5 +1017,15 @@ link:focus,
 .filter-controls li:hover {
   color: #ffbc3b;
 }
+.maps iframe{
+  width: 580px;
+  height: 400px;
+}
+@media (max-width: 320px){
+  .maps iframe{
+    width: 320px;
+    height: 280px;
 
+  }
+}
 /*# sourceMappingURL=maps/style.css.map */
